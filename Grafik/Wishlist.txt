@@ -1,0 +1,23 @@
+things we need sooo muuuch !!!
+
+Alle Edges und Nodes sind eigene Objekte (versteht ihr wie Sebi das meint?) ;-)
+
+jede Edge:
+getter für Start, End, Kapazität(default 0, an Tabelle eintagen mit Name CapacityMax), Flow (default 0) und Richtung (bool isforward)
+setter für  Flow
+
+Jeder Knoten:
+
+ein Array mit seinen anliegenden Edges (hin und weg) connectedEdges[] inkl getter
+Speichern aller Knoten (Nodes) in List
+
+gesamt:
+ein Array mit allen Edges des Grafen allEdges[] inkl getter
+
+getSource() - gibt den Knoten zurück der die Quelle ist
+wenn sie noch nicht definiert wurde return null
+getSink() - gibt den Knoten zurück der die Senke ist
+wenn sie noch nicht definiert wurde return null
+
+1 Pfund Mettbrötchen!
+
